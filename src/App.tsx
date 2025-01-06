@@ -1,15 +1,15 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
-import Collection from "./pages/collection";
-import About from "./pages/about";
-import Contact from "./pages/contact";
 import Product from "./pages/Product";
 import Cart from "./pages/Cart";
 import Login from "./pages/Login";
 import PlaceOrder from "./pages/PlaceOrder";
 import Orders from "./pages/Orders";
 import Navbar from "./components/Navbar";
+import Contact from "./pages/Contact";
+import About from "./pages/About";
+import Collection from "./pages/Collection";
 
 const App = () => {
   return (
