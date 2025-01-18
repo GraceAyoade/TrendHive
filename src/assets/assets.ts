@@ -1,15 +1,12 @@
 import purpleShirt from "./purple-t-shirt.jpg";
-import blueShirt from "./blue-t-shirt.jpg";
 import greenShirt from "./green-t-shirt.jpg";
-import ladiesShirt from "./ladies-t-shirt.jpg";
 import bridalShoe from "./clear-bridal-shoes-with-crystal-decoration.jpg";
-import { IProducts } from "../types/types";
+import logo from "./cartify-logo3.png";
 
 export const assets = {
+   logo,
   purpleShirt,
-  blueShirt,
   greenShirt,
-  ladiesShirt,
   bridalShoe,
 };
 
@@ -19,7 +16,7 @@ export const products = [
     name: "Purple Shirt",
     description: "A lightweight, high-quality purple shirt.",
     price: 30,
-    image: [purpleShirt, blueShirt, greenShirt],
+    image: [purpleShirt, greenShirt],
     category: ["Women", "Men"],
     subCategory: "Tees",
     sizes: ["S", "M", "L", "XL"],
@@ -40,10 +37,10 @@ export const products = [
   },
   {
     id: 1,
-    name: "Purple Shirt",
+    name: "Ladies Shirt",
     description: "A lightweight, high-quality purple shirt.",
     price: 30,
-    image: [ladiesShirt],
+    image: [],
     category: ["Women", "Men"],
     subCategory: "Tees",
     sizes: ["S", "M", "L", "XL"],
